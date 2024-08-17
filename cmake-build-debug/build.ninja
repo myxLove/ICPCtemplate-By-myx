@@ -79,6 +79,24 @@ build CMakeFiles/ICPC_template.dir/code/math/BigInt.cpp.obj: CXX_COMPILER__ICPC_
   OBJECT_DIR = CMakeFiles\ICPC_template.dir
   OBJECT_FILE_DIR = CMakeFiles\ICPC_template.dir\code\math
 
+build CMakeFiles/ICPC_template.dir/code/graph/MST-prim.cpp.obj: CXX_COMPILER__ICPC_template_unscanned_Debug C$:/Users/leo/CLionProjects/ICPC-template/code/graph/MST-prim.cpp || cmake_object_order_depends_target_ICPC_template
+  DEP_FILE = CMakeFiles\ICPC_template.dir\code\graph\MST-prim.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ICPC_template.dir
+  OBJECT_FILE_DIR = CMakeFiles\ICPC_template.dir\code\graph
+
+build CMakeFiles/ICPC_template.dir/code/graph/MST-kruskal.cpp.obj: CXX_COMPILER__ICPC_template_unscanned_Debug C$:/Users/leo/CLionProjects/ICPC-template/code/graph/MST-kruskal.cpp || cmake_object_order_depends_target_ICPC_template
+  DEP_FILE = CMakeFiles\ICPC_template.dir\code\graph\MST-kruskal.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ICPC_template.dir
+  OBJECT_FILE_DIR = CMakeFiles\ICPC_template.dir\code\graph
+
+build CMakeFiles/ICPC_template.dir/code/graph/SP-Floyd.cpp.obj: CXX_COMPILER__ICPC_template_unscanned_Debug C$:/Users/leo/CLionProjects/ICPC-template/code/graph/SP-Floyd.cpp || cmake_object_order_depends_target_ICPC_template
+  DEP_FILE = CMakeFiles\ICPC_template.dir\code\graph\SP-Floyd.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ICPC_template.dir
+  OBJECT_FILE_DIR = CMakeFiles\ICPC_template.dir\code\graph
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ICPC_template
@@ -87,7 +105,7 @@ build CMakeFiles/ICPC_template.dir/code/math/BigInt.cpp.obj: CXX_COMPILER__ICPC_
 #############################################
 # Link the executable ICPC_template.exe
 
-build ICPC_template.exe: CXX_EXECUTABLE_LINKER__ICPC_template_Debug CMakeFiles/ICPC_template.dir/main.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/segmentTree.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/pbds-template/BST.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/LCT.cpp.obj CMakeFiles/ICPC_template.dir/code/math/BigInt.cpp.obj
+build ICPC_template.exe: CXX_EXECUTABLE_LINKER__ICPC_template_Debug CMakeFiles/ICPC_template.dir/main.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/segmentTree.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/pbds-template/BST.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/LCT.cpp.obj CMakeFiles/ICPC_template.dir/code/math/BigInt.cpp.obj CMakeFiles/ICPC_template.dir/code/graph/MST-prim.cpp.obj CMakeFiles/ICPC_template.dir/code/graph/MST-kruskal.cpp.obj CMakeFiles/ICPC_template.dir/code/graph/SP-Floyd.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ICPC_template.dir
@@ -96,6 +114,72 @@ build ICPC_template.exe: CXX_EXECUTABLE_LINKER__ICPC_template_Debug CMakeFiles/I
   TARGET_FILE = ICPC_template.exe
   TARGET_IMPLIB = libICPC_template.dll.a
   TARGET_PDB = ICPC_template.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target segmentTree
+
+
+#############################################
+# Order-only phony target for segmentTree
+
+build cmake_object_order_depends_target_segmentTree: phony || CMakeFiles/segmentTree.dir
+
+build CMakeFiles/segmentTree.dir/code/data-template/segmentTree.cpp.obj: CXX_COMPILER__segmentTree_unscanned_Debug C$:/Users/leo/CLionProjects/ICPC-template/code/data-template/segmentTree.cpp || cmake_object_order_depends_target_segmentTree
+  DEP_FILE = CMakeFiles\segmentTree.dir\code\data-template\segmentTree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\segmentTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\segmentTree.dir\code\data-template
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target segmentTree
+
+
+#############################################
+# Link the executable segmentTree.exe
+
+build segmentTree.exe: CXX_EXECUTABLE_LINKER__segmentTree_Debug CMakeFiles/segmentTree.dir/code/data-template/segmentTree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\segmentTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = segmentTree.exe
+  TARGET_IMPLIB = libsegmentTree.dll.a
+  TARGET_PDB = segmentTree.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BigInt
+
+
+#############################################
+# Order-only phony target for BigInt
+
+build cmake_object_order_depends_target_BigInt: phony || CMakeFiles/BigInt.dir
+
+build CMakeFiles/BigInt.dir/code/math/BigInt.cpp.obj: CXX_COMPILER__BigInt_unscanned_Debug C$:/Users/leo/CLionProjects/ICPC-template/code/math/BigInt.cpp || cmake_object_order_depends_target_BigInt
+  DEP_FILE = CMakeFiles\BigInt.dir\code\math\BigInt.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BigInt.dir
+  OBJECT_FILE_DIR = CMakeFiles\BigInt.dir\code\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BigInt
+
+
+#############################################
+# Link the executable BigInt.exe
+
+build BigInt.exe: CXX_EXECUTABLE_LINKER__BigInt_Debug CMakeFiles/BigInt.dir/code/math/BigInt.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BigInt.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BigInt.exe
+  TARGET_IMPLIB = libBigInt.dll.a
+  TARGET_PDB = BigInt.exe.dbg
 
 
 #############################################
@@ -123,7 +207,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build BigInt: phony BigInt.exe
+
 build ICPC_template: phony ICPC_template.exe
+
+build segmentTree: phony segmentTree.exe
 
 # =============================================================================
 # Folder targets.
@@ -133,7 +221,7 @@ build ICPC_template: phony ICPC_template.exe
 #############################################
 # Folder: C:/Users/leo/CLionProjects/ICPC-template/cmake-build-debug
 
-build all: phony ICPC_template.exe
+build all: phony ICPC_template.exe segmentTree.exe BigInt.exe
 
 # =============================================================================
 # Built-in targets

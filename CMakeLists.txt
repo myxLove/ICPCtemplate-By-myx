@@ -7,4 +7,10 @@ add_executable(ICPC_template main.cpp
         code/data-template/segmentTree.cpp
         code/data-template/pbds-template/BST.cpp
         code/data-template/LCT.cpp
-        code/math/BigInt.cpp)
+        code/math/BigInt.cpp
+        code/graph/MST-prim.cpp
+        code/graph/MST-kruskal.cpp
+        code/graph/SP-Floyd.cpp)
+
+add_executable(segmentTree code/data-template/segmentTree.cpp)
+add_executable(BigInt code/math/BigInt.cpp)
