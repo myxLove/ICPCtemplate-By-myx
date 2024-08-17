@@ -67,6 +67,18 @@ build CMakeFiles/ICPC_template.dir/code/data-template/pbds-template/BST.cpp.obj:
   OBJECT_DIR = CMakeFiles\ICPC_template.dir
   OBJECT_FILE_DIR = CMakeFiles\ICPC_template.dir\code\data-template\pbds-template
 
+build CMakeFiles/ICPC_template.dir/code/data-template/LCT.cpp.obj: CXX_COMPILER__ICPC_template_unscanned_Debug C$:/Users/leo/CLionProjects/ICPC-template/code/data-template/LCT.cpp || cmake_object_order_depends_target_ICPC_template
+  DEP_FILE = CMakeFiles\ICPC_template.dir\code\data-template\LCT.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ICPC_template.dir
+  OBJECT_FILE_DIR = CMakeFiles\ICPC_template.dir\code\data-template
+
+build CMakeFiles/ICPC_template.dir/code/math/BigInt.cpp.obj: CXX_COMPILER__ICPC_template_unscanned_Debug C$:/Users/leo/CLionProjects/ICPC-template/code/math/BigInt.cpp || cmake_object_order_depends_target_ICPC_template
+  DEP_FILE = CMakeFiles\ICPC_template.dir\code\math\BigInt.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ICPC_template.dir
+  OBJECT_FILE_DIR = CMakeFiles\ICPC_template.dir\code\math
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ICPC_template
@@ -75,7 +87,7 @@ build CMakeFiles/ICPC_template.dir/code/data-template/pbds-template/BST.cpp.obj:
 #############################################
 # Link the executable ICPC_template.exe
 
-build ICPC_template.exe: CXX_EXECUTABLE_LINKER__ICPC_template_Debug CMakeFiles/ICPC_template.dir/main.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/segmentTree.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/pbds-template/BST.cpp.obj
+build ICPC_template.exe: CXX_EXECUTABLE_LINKER__ICPC_template_Debug CMakeFiles/ICPC_template.dir/main.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/segmentTree.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/pbds-template/BST.cpp.obj CMakeFiles/ICPC_template.dir/code/data-template/LCT.cpp.obj CMakeFiles/ICPC_template.dir/code/math/BigInt.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ICPC_template.dir
